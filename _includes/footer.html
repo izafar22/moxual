@@ -1,0 +1,60 @@
+<!-- ***************************
+        Footer Area Start
+     *************************** -->
+     <footer class="footer_area section_padding footer_style_2 section_dark_bg">
+        <img src="assets/images/testimonial-shape.png" class="triangle_shape footer_shape" alt="Shape">
+        <img src="assets/images/testimonial-shape.png" class="triangle_shape_2 footer_shape_2" alt="Shape">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 nj">
+                    <div class="footer_widget widget_with_logo">
+                       
+                            <a href="/" itemprop="url" class="footer_logo ">
+                                <img class="small--hide" src="../assets/images/logo.png" alt="iotty Smart Home" itemprop="logo">
+                               
+                              </a>
+                    <div class="">  
+                        <ul class="social_link">
+                            {% for item in site.data.footerNavigation %}
+                            <li><a href="{{ item.link }}"><i class="{{ item.class }}"></i></a></li>
+                            {% endfor %}
+                        </ul>
+
+                        </div>
+                       
+                    </div><!--end .footer_widget-->
+                </div><!--end .col-md-4-->
+               <!--end .col-md-3-->
+               <!--end .col-md-3-->
+               
+                <div class="col-md-3 col-sm-6  col-md-push-4">
+                    <div class="footer_widget company_widget">
+                        
+                        <div class="company_flex">
+                            <ul class="quick_links">
+                                <li><a href="/index.html"><i class="fa fa-angle-right"></i> HOME</a></li>
+                                <li><a href="/products.html"><i class="fa fa-angle-right"></i> PRODUCTS</a></li>
+                                <li><a href="/about.html"><i class="fa fa-angle-right"></i> ABOUT US</a></li>
+                                
+                                <li><a href="/contacts.html"><i class="fa fa-angle-right"></i> CONTACT US</a></li>
+                            </ul>
+                           
+                        </div><!--end .company_flex-->
+                       
+                    </div><!--end .footer_widget-->
+                </div><!--end .col-md-3-->
+            </div><!--end .row-->
+        </div><!--end .container-->
+        <!--end .copyright_area-->
+        <div class="social-links">
+            <a href="tel:+91-9310161699" class="quickcall tran3s phoneMe">CALL US</a>
+        </div>
+        <p class="footer__copyright">
+            © 2020 Moxual
+            
+          </p>
+    </div>
+    </footer><!--end .footer_area-->
+    <!-- ***************************
+       Footer Area End
+    *************************** -->
